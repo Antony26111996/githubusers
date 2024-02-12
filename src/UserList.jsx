@@ -13,7 +13,7 @@ const UserList = () => {
       setError(null);
 
       try {
-        const accessToken = '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';
+        const accessToken = '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';
         const response = await axios.get('https://api.github.com/users', {
           headers: {
             Authorization: `token ${accessToken}`,
