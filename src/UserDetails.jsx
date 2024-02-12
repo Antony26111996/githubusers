@@ -15,7 +15,7 @@ const UserDetails = () => {
       setError(null);
 
       try {
-        const accessToken = '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';
+        const accessToken = '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';
         const response = await axios.get(`https://api.github.com/users/${login}`, {
           headers: {
             Authorization: `token ${accessToken}`,
